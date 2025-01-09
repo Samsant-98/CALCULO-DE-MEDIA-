@@ -1,15 +1,11 @@
-Objeto a ser calculado  = float(input("objeto1: ")
-Objeto a ser calculado= float(input('objeto2: '))
-
-simulado = float(input('objeto simulado: '))
-
-ac1 = float(input('objeto AC1: '))
-
-ac2 = float(input('objeto AC2: '))
-
-
-media1 = (objeto1+objeto2)/2
-mediaAC = (ac1+ac2)/2
-mediaf = (media1+simulado+mediaAC)/3 
-
-Print(Mediaf)
+media.py
+print("Esse programa calcula a media")
+nota1 = raw_input("Digite a primeira nota: ")
+nota2 = raw_input("Digite a segunda nota: ")
+media = (float(nota1) + float(nota2))/2
+if media > 6:
+    print("PARABENS, VOCE ESTA APROVADO")
+else:
+    print("VOCE ESTA REPROVADO")
+print("ESSA SUA MEDIA: %s" % media)
+Comment
