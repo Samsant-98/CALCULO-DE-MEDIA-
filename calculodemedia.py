@@ -1,11 +1,11 @@
 media.py
 print("Esse programa calcula a media")
-nota1 = raw_input("Digite a primeira nota: ")
-nota2 = raw_input("Digite a segunda nota: ")
-media = (float(nota1) + float(nota2))/2
-if media > 6:
-    print("PARABENS, VOCE ESTA APROVADO")
+objeto a ser calculado1 = raw_input("Digite a primeira objeto: ")
+objeto a ser calculado2 = raw_input("Digite a segunda ojeto: ")
+media = (float(objeto1) + float(objeto2))/2
+if media > 5.000:
+    print("voce teve algum ganho")
 else:
-    print("VOCE ESTA REPROVADO")
+    print("você não teve nenhum ganho")
 print("ESSA SUA MEDIA: %s" % media)
 Comment
