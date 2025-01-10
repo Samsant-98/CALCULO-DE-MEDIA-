@@ -1,4 +1,3 @@
-media.py
 print("Esse programa calcula a media")
 objeto a ser calculado1 = raw_input("Digite a primeira objeto: ")
 objeto a ser calculado2 = raw_input("Digite a segunda ojeto: ")
